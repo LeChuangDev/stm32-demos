@@ -1,0 +1,25 @@
+Dependencies for Project 'F407_Demo', Target 'Demo': (DO NOT MODIFY !)
+CompilerVersion: 6230000::V6.23::ARMCLANG
+F (..\Core\main.c)(0x6874FBD2)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Drivers/Device/STM32F4xx/Include -I ../Drivers/Include -I ../Drivers -I ../SYSTEM -I ../Core/Inc -I ../Core/Src -I ../Core -I ../BSP -I ../Task -I ../BSP/Oled_Spi-D__UVISION_VERSION="542" -DSTM32F407xx -DSTM32F407xx-o ./objects/main.o -MMD)
+I (..\SYSTEM\sys.h)(0x685BA31A)
+I (..\Drivers\Device\STM32F4xx\Include\stm32f4xx.h)(0x675F8AE3)
+I (..\Drivers\Device\STM32F4xx\Include\stm32f407xx.h)(0x675F8AE3)
+I (..\Drivers\Include\core_cm4.h)(0x675F8AE3)
+I (..\Drivers\Device\STM32F4xx\Include\system_stm32f4xx.h)(0x675F8AE3)
+F (..\Drivers\Device\STM32F4xx\Source\Templates\arm\startup_stm32f407xx.s)(0x675F8AE3)(--target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -masm=auto  -Wa,armasm,--diag_suppress=A1950W -c-gdwarf-4-Wa,armasm,--pd,"__UVISION_VERSION SETA 542" -Wa,armasm,--pd,"STM32F407xx SETA 1"-o ./objects/startup_stm32f407xx.o)
+F (..\SYSTEM\sys.c)(0x685BA4C3)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Drivers/Device/STM32F4xx/Include -I ../Drivers/Include -I ../Drivers -I ../SYSTEM -I ../Core/Inc -I ../Core/Src -I ../Core -I ../BSP -I ../Task -I ../BSP/Oled_Spi-D__UVISION_VERSION="542" -DSTM32F407xx -DSTM32F407xx-o ./objects/sys.o -MMD)
+I (..\SYSTEM\sys.h)(0x685BA31A)
+I (..\Drivers\Device\STM32F4xx\Include\stm32f4xx.h)(0x675F8AE3)
+I (..\Drivers\Device\STM32F4xx\Include\stm32f407xx.h)(0x675F8AE3)
+I (..\Drivers\Include\core_cm4.h)(0x675F8AE3)
+I (..\Drivers\Device\STM32F4xx\Include\system_stm32f4xx.h)(0x675F8AE3)
+F (..\BSP\Oled_Spi\Oled.c)(0x6878A816)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Drivers/Device/STM32F4xx/Include -I ../Drivers/Include -I ../Drivers -I ../SYSTEM -I ../Core/Inc -I ../Core/Src -I ../Core -I ../BSP -I ../Task -I ../BSP/Oled_Spi-D__UVISION_VERSION="542" -DSTM32F407xx -DSTM32F407xx-o ./objects/oled.o -MMD)
+I (..\SYSTEM\sys.h)(0x685BA31A)
+I (..\Drivers\Device\STM32F4xx\Include\stm32f4xx.h)(0x675F8AE3)
+I (..\Drivers\Device\STM32F4xx\Include\stm32f407xx.h)(0x675F8AE3)
+I (..\Drivers\Include\core_cm4.h)(0x675F8AE3)
+I (..\Drivers\Device\STM32F4xx\Include\system_stm32f4xx.h)(0x675F8AE3)
+I (..\BSP\.\Oled_Spi\Oled.h)(0x6855674D)
+I (..\BSP\.\Oled_Spi\Oled_data.h)(0x683C447B)
+F (..\BSP\Oled_Spi\Oled_data.c)(0x683E8202)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Drivers/Device/STM32F4xx/Include -I ../Drivers/Include -I ../Drivers -I ../SYSTEM -I ../Core/Inc -I ../Core/Src -I ../Core -I ../BSP -I ../Task -I ../BSP/Oled_Spi-D__UVISION_VERSION="542" -DSTM32F407xx -DSTM32F407xx-o ./objects/oled_data.o -MMD)
+I (..\BSP\Oled_Spi\Oled_Data.h)(0x683C447B)

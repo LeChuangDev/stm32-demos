@@ -1,0 +1,12 @@
+--cpu Cortex-M7.fp.dp
+".\objects\mian.o"
+".\objects\startup_stm32h743xx.o"
+".\objects\sys.o"
+".\objects\lib.o"
+".\objects\uasrt.o"
+".\objects\oled.o"
+".\objects\oled_data.o"
+--strict --scatter ".\Objects\H743_Demo.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\H743_Demo.map" -o .\Objects\H743_Demo.axf

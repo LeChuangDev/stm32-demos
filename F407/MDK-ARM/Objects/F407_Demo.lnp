@@ -1,0 +1,10 @@
+--cpu=Cortex-M4.fp.sp
+".\objects\main.o"
+".\objects\startup_stm32f407xx.o"
+".\objects\sys.o"
+".\objects\oled.o"
+".\objects\oled_data.o"
+--strict --scatter ".\Objects\F407_Demo.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\F407_Demo.map" -o .\Objects\F407_Demo.axf
