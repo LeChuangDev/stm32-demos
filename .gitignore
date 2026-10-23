@@ -10,8 +10,8 @@ install_manifest.txt
 !CMakeLists.txt
 
 # Keil MDK-ARM 工程生成文件
-MDK-ARM/Listings/
-MDK-ARM/Objects/
+**/MDK-ARM/Listings/
+**/MDK-ARM/Objects/
 *.uvguix.*
 *.uvoptx
 DebugConfig/
